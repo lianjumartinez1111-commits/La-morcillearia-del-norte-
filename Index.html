@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Morcillearia del Norte</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            background: #8b0000;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 25px;
+            background: white;
+            color: #8b0000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .titulo {
+            color: #e00000;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .producto {
+            background: #222;
+            border: 2px solid #8b0000;
+            border-radius: 12px;
+            padding: 25px;
+            width: 280px;
+        }
+
+        .producto h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .producto p {
+            color: #ddd;
+        }
+
+        .historia {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+            color: #ddd;
+        }
+
+        .contacto {
+            background: #8b0000;
+        }
+
+        .contacto p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .producto {
+                width: 100%;
+                max-width: 330px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌭 La Morcillearia del Norte</h1>
+        <p>Tradición y sabor con la receta de la abuela</p>
+
+        <a class="boton" href="#productos">Ver nuestros productos</a>
+    </header>
+
+    <section id="productos">
+        <h2 class="titulo">Nuestros productos</h2>
+
+        <div class="productos">
+
+            <div class="producto">
+                <h3>🖤 Morcilla</h3>
+                <p>
+                    Morcilla artesanal con el sabor tradicional
+                    que nos recuerda la receta de la abuela.
+                </p>
+            </div>
+
+            <div class="producto">
+                <h3>🌭 Chorizos</h3>
+                <p>
+                    Chorizos caseros de cerdo, preparados con
+                    sabor tradicional y excelente calidad.
+                </p>
+                <p><strong>Bandeja de 5 unidades</strong></p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2 class="titulo">Nuestra historia</h2>
+
+        <div class="historia">
+            <p>
+                En <strong>La Morcillearia del Norte</strong>
+                nos dedicamos a ofrecer productos tradicionales
+                con ese sabor casero que nos recuerda nuestras
+                raíces y la receta de la abuela.
+            </p>
+
+            <br>
+
+            <p>
+                Nuestro objetivo es brindar productos de calidad,
+                buen servicio y un sabor que nuestros clientes
+                quieran volver a disfrutar.
+            </p>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h2>📍 Visítanos</h2>
+
+        <p>Calle 54 #55-82</p>
+        <p>Bello, Antioquia</p>
+
+        <p>📞 321 739 7795</p>
+
+        <a class="boton" href="tel:3217397795">
+            Llamarnos
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 La Morcillearia del Norte</p>
+        <p>Tradición • Sabor • Calidad</p>
+    </footer>
+
+</body>
+</html>
